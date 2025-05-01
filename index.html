@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VILLAGE VACATION</title>
+
+    <!-- Smooth Scroll -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div id="menu-bars" class="fas fa-bars"></div>
+      <nav class="navbar vertical">
+        <a href="#home">home</a>
+        <a href="#service">service</a>
+        <a href="#gallery">gallery</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <a href="#" class="logo">VILLAGE VACATION</a>
+    </header>
+
+    <!-- Home Section with Swiper -->
+    <section class="home" id="home">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/home1.jpg" alt="home image 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home2.jpg" alt="home image 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home3.jpg" alt="home image 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home4.jpg" alt="home image 4" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home5.jpg" alt="home image 5" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/home6.jpg" alt="home image 6" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo Video -->
+    <div class="promo-video">
+      <h2>Event Promo Video</h2>
+      <a href="models.html" target="_blank">
+        <video controls class="full-screen-video">
+          <source src="videos/event-promo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </a>
+    </div>
+
+    <!-- Services Section -->
+    <section class="service" id="service">
+      <h1 class="heading">our services</h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-birthday-cake"></i>
+          <h3>BIRTHDAY PARTIES</h3>
+          <p>
+            Memorable birthday celebrations with complete planning and
+            execution.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-gift"></i>
+          <h3>WEDDING SERVICES</h3>
+          <p>
+            Customized wedding planning for a seamless and magical experience.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-school"></i>
+          <h3>SCHOOL FAREWELLS</h3>
+          <p>Themed farewell events to honor student achievements.</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-briefcase"></i>
+          <h3>CORPORATE EVENTS</h3>
+          <p>Professional management of conferences and product launches.</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>BRAND PROMOTION</h3>
+          <p>Engaging events to elevate your brand visibility.</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-music"></i>
+          <h3>LIVE CONCERT</h3>
+          <p>Full coordination of live concerts, from booking to setup.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+      <h1 class="heading">our gallery</h1>
+      <div class="box-container">
+        <div class="box"><img src="images/gallery1.jpg" alt="gallery1" /></div>
+        <div class="box"><img src="images/gallery2.jpg" alt="gallery2" /></div>
+        <div class="box"><img src="images/gallery3.jpg" alt="gallery3" /></div>
+        <div class="box"><img src="images/gallery4.jpg" alt="gallery4" /></div>
+        <div class="box"><img src="images/gallery5.jpg" alt="gallery5" /></div>
+        <div class="box"><img src="images/gallery6.jpg" alt="gallery6" /></div>
+        <div class="box"><img src="images/gallery7.jpg" alt="gallery7" /></div>
+        <div class="box"><img src="images/gallery8.jpg" alt="gallery8" /></div>
+        <div class="box"><img src="images/gallery9.jpg" alt="gallery9" /></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h1 class="heading">contact us</h1>
+      <form action="#">
+        <div class="inputBox">
+          <input type="text" name="name" placeholder="name" aria-label="name" />
+          <input
+            type="email"
+            name="email"
+            placeholder="email"
+            aria-label="email"
+          />
+        </div>
+        <div class="inputBox">
+          <input
+            type="tel"
+            name="number"
+            placeholder="number"
+            aria-label="number"
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="subject"
+            aria-label="subject"
+          />
+        </div>
+        <textarea
+          name="message"
+          placeholder="message"
+          cols="30"
+          rows="10"
+          aria-label="message"
+        ></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"><i class="fas fa-phone"></i> +91 91646 193280</a>
+          <a href="#"
+            ><i class="fas fa-envelope"></i> villagevacation@gmail.com</a
+          >
+          <a href="#"
+            ><i class="fas fa-map-marker-alt"></i> Ballari, India - 560054</a
+          >
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a
+            href="https://www.facebook.com/v_v_event_organizers?igsh=MWRtM2N0Mjcwdnd1ZA=="
+          >
+            <i class="fab fa-facebook-f"></i> facebook
+          </a>
+          <a
+            href="https://www.instagram.com/v_v_event_organizers?igsh=MWRtM2N0Mjcwdnd1ZA=="
+          >
+            <i class="fab fa-instagram"></i> instagram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Theme Toggler -->
+    <div class="theme-toggler">
+      <div class="toggle-btn"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
